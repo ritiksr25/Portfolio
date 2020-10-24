@@ -7,7 +7,7 @@ export default function Home() {
 			<div className={styles.container}>
 				<main className={styles.main}>
 					<h1 className={styles.title}>
-						Namaste 🙏, I am{" "}
+						Hey, I am{" "}
 						<a href="https://linkedin.com/in/ritiksr25">
 							Ritik Srivastava!
 						</a>
