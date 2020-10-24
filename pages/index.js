@@ -8,7 +8,11 @@ export default function Home() {
 				<main className={styles.main}>
 					<h1 className={styles.title}>
 						Hey, I am{" "}
-						<a href="https://linkedin.com/in/ritiksr25">
+						<a
+							href="https://linkedin.com/in/ritiksr25"
+							target="_blank"
+							rel="noreferrer noopener"
+						>
 							Ritik Srivastava!
 						</a>
 					</h1>
