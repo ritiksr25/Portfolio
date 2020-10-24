@@ -1,0 +1,48 @@
+{
+	"name": "ritiksr25-portfolio",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "prettier \"**/*.{js, jsx, json, md, html, css, yml}\" --write"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ritiksr25/portfolio"
+	},
+	"author": {
+		"name": "Ritik Srivastava",
+		"email": "ritiksr25@gmail.com",
+		"url": "https://ritiksr25.tech"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ritiksr25/portfolio/issues"
+	},
+	"homepage": "https://ritiksr25.tech",
+	"keywords": [
+		"ritiksr25"
+	],
+	"dependencies": {
+		"next": "9.5.5",
+		"react": "17.0.1",
+		"react-dom": "17.0.1"
+	},
+	"lint-staged": {
+		"*.{js, jsx, json, md, html, css, yml}": [
+			"prettier --write"
+		]
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"devDependencies": {
+		"husky": "^4.3.0",
+		"lint-staged": "^10.4.2",
+		"prettier": "^2.1.2"
+	}
+}
