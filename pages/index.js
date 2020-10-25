@@ -10,7 +10,7 @@ export default function Home() {
 						Hey, I am{" "}
 						<a
 							href="https://linkedin.com/in/ritiksr25"
-							target="_blank"
+							target="_self"
 							rel="noreferrer noopener"
 						>
 							Ritik Srivastava!
