@@ -1,6 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import LayoutComponent from "../components/LayoutComponent";
 import styles from "../styles/Home.module.css";
-
 export default function Home() {
 	return (
 		<LayoutComponent>
@@ -29,8 +29,9 @@ export default function Home() {
 							rel="noopener noreferrer"
 							href="https://github.com/ritiksr25"
 						>
-							<i
-								className={`${styles.contactLink} fa fa-github`}
+							<FontAwesomeIcon
+								icon={["fab", "github"]}
+								className={styles.contactLink}
 							/>
 						</a>
 
@@ -40,8 +41,9 @@ export default function Home() {
 							rel="noopener noreferrer"
 							href="https://linkedin.com/in/ritiksr25"
 						>
-							<i
-								className={`${styles.contactLink} fa fa-linkedin`}
+							<FontAwesomeIcon
+								icon={["fab", "linkedin"]}
+								className={styles.contactLink}
 							/>
 						</a>
 
@@ -51,8 +53,9 @@ export default function Home() {
 							rel="noopener noreferrer"
 							href="https://twitter.com/ritiksr25"
 						>
-							<i
-								className={`${styles.contactLink} fa fa-twitter`}
+							<FontAwesomeIcon
+								icon={["fab", "twitter"]}
+								className={styles.contactLink}
 							/>
 						</a>
 
@@ -62,8 +65,9 @@ export default function Home() {
 							rel="noopener noreferrer"
 							href="mailto:ritiksr25@gmail.com"
 						>
-							<i
-								className={`${styles.contactLink} fa fa-envelope-open`}
+							<FontAwesomeIcon
+								icon={["fa", "envelope-open"]}
+								className={styles.contactLink}
 							/>
 						</a>
 
@@ -73,8 +77,9 @@ export default function Home() {
 							rel="noopener noreferrer"
 							href="https://bit.ly/ritiksr25-resume"
 						>
-							<i
-								className={`${styles.contactLink} fa fa-download`}
+							<FontAwesomeIcon
+								icon={["fa", "download"]}
+								className={styles.contactLink}
 							/>
 						</a>
 					</div>

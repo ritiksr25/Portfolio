@@ -60,12 +60,7 @@ const LayoutComponent = props => (
 				name="google-site-verification"
 				content="-V6HnViUv9byKilJ5nbBsZYijb57xnK8sFm9fMNB5l4"
 			/>
-			<link
-				href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-				rel="stylesheet"
-				integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-				crossorigin="anonymous"
-			></link>
+			<script async src="https://cdn.splitbee.io/sb.js"></script>
 		</Head>
 		<script>
 			{(console.log = console.warn = console.error = () => {})}
