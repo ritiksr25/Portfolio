@@ -12,13 +12,6 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 library.add(faGithub, faTwitter, faLinkedin, faDownload, faEnvelopeOpen);
 function MyApp({ Component, pageProps }) {
-	useEffect(() => {
-		if ("serviceWorker" in navigator) {
-			window.addEventListener("load", async function () {
-				await navigator.serviceWorker.register("/sw.js");
-			});
-		}
-	}, []);
 	return <Component {...pageProps} />;
 }
 
