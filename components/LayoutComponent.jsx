@@ -60,6 +60,7 @@ const LayoutComponent = props => (
 				name="google-site-verification"
 				content="-V6HnViUv9byKilJ5nbBsZYijb57xnK8sFm9fMNB5l4"
 			/>
+			<script async src="https://cdn.splitbee.io/sb.js"></script>
 		</Head>
 		<script>
 			{(console.log = console.warn = console.error = () => {})}
