@@ -5,22 +5,80 @@ export default function Home() {
 	return (
 		<LayoutComponent>
 			<div className={styles.container}>
-				<main className={styles.main}>
+				<div className={styles.main}>
 					<h1 className={styles.title}>
-						Hey, I am{" "}
+						namaste 🙏
+						<br />i am{" "}
+						<span className={styles.name}>ritik srivastava!</span>
+					</h1>
+					<p className={styles.description}>
+						full-stack dev, passionate about building stuffs, core
+						team member{" "}
 						<a
-							href="https://linkedin.com/in/ritiksr25"
+							href="https://dsckiet.com"
 							target="_blank"
 							rel="noreferrer noopener"
 						>
-							Ritik Srivastava!
+							@dsckiet
 						</a>
-					</h1>
-					<p className={styles.description}>
-						Thanks for Passing by! This Site is currently under
-						construction. See you soon!
 					</p>
-				</main>
+					<div className="social-section row">
+						<a
+							title="stalk me on github"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://github.com/ritiksr25"
+						>
+							<i
+								className={`${styles.contactLink} fa fa-github`}
+							/>
+						</a>
+
+						<a
+							title="connect with me on linkedin"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://linkedin.com/in/ritiksr25"
+						>
+							<i
+								className={`${styles.contactLink} fa fa-linkedin`}
+							/>
+						</a>
+
+						<a
+							title="follow me on twitter"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://twitter.com/ritiksr25"
+						>
+							<i
+								className={`${styles.contactLink} fa fa-twitter`}
+							/>
+						</a>
+
+						<a
+							title="send a hi on gmail"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="mailto:ritiksr25@gmail.com"
+						>
+							<i
+								className={`${styles.contactLink} fa fa-envelope-open`}
+							/>
+						</a>
+
+						<a
+							title="checkout my resume"
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://bit.ly/ritiksr25-resume"
+						>
+							<i
+								className={`${styles.contactLink} fa fa-download`}
+							/>
+						</a>
+					</div>
+				</div>
 			</div>
 		</LayoutComponent>
 	);

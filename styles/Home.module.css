@@ -1,19 +1,16 @@
 .container {
-	min-height: 100vh;
 	padding: 0 0.5rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
+	margin-top: 20vh;
 }
 
 .main {
-	padding: 5rem 0;
+	padding: 2rem 2rem;
 	flex: 1;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 
 .title a {
@@ -24,15 +21,60 @@
 .title {
 	margin: 0;
 	line-height: 1.15;
-	font-size: 4rem;
+	font-size: 48px;
 }
 
-.title,
-.description {
-	text-align: center;
+.name {
+	color: #4285f4;
+	cursor: pointer;
+	transition: 1.5s all linear;
+}
+
+.name:hover {
+	color: #ededed;
+	cursor: pointer;
+	transition: 1.5s all linear;
 }
 
 .description {
 	line-height: 1.5;
-	font-size: 1.5rem;
+	font-size: 32px;
+}
+
+.description a {
+	cursor: pointer;
+	transition: 0.3s all linear;
+}
+
+.description a:hover {
+	color: #ededed;
+	cursor: pointer;
+	transition: 0.3s all linear;
+}
+
+.contactLink {
+	font-size: 32px;
+	color: #ededed;
+	margin-right: 24px;
+	transition: 0.3s all linear;
+}
+
+.contactLink:hover {
+	color: #4285f4;
+	transition: 0.3s all linear;
+}
+
+@media only screen and (max-width: 550px) {
+	.container {
+		margin-top: auto;
+	}
+
+	.title {
+		font-size: 32px;
+	}
+
+	.description,
+	.contactLink {
+		font-size: 24px;
+	}
 }
