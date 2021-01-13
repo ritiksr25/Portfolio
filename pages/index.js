@@ -12,8 +12,9 @@ export default function Home() {
 						<span className={styles.name}>ritik srivastava!</span>
 					</h1>
 					<p className={styles.description}>
-						full-stack dev, passionate about building stuffs, core
-						team member{" "}
+						full-stack dev, passionate about building stuffs
+						<br />
+						core team member{" "}
 						<a
 							href="https://dsckiet.com"
 							target="_blank"
@@ -66,7 +67,7 @@ export default function Home() {
 							href="mailto:ritiksr25@gmail.com"
 						>
 							<FontAwesomeIcon
-								icon={["fa", "envelope-open"]}
+								icon={["fa", "envelope"]}
 								className={styles.contactLink}
 							/>
 						</a>
@@ -78,7 +79,7 @@ export default function Home() {
 							href="https://bit.ly/ritiksr25-resume"
 						>
 							<FontAwesomeIcon
-								icon={["fa", "download"]}
+								icon={["fa", "arrow-circle-down"]}
 								className={styles.contactLink}
 							/>
 						</a>
