@@ -19,13 +19,9 @@ const LayoutComponent = props => (
 			<meta name="description" content={ABOUT} />
 			<meta name="keywords" content={KEYWORDS} />
 
-			<meta name="theme-color" content="#000000" />
+			<meta name="theme-color" content="#EDEDED" />
 			<link rel="canonical" href={DOMAIN} />
-			<link
-				rel="apple-touch-icon"
-				sizes="180x180"
-				href="/apple-touch-icon.png"
-			/>
+
 			<link
 				rel="icon"
 				type="image/png"
