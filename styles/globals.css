@@ -1,5 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
-
+@font-face {
+	font-family: "Raleway";
+	font-weight: 800;
+	font-display: swap;
+	src: url("/fonts/raleway.ttf");
+}
 html,
 body {
 	padding: 0;
